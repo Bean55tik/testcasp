@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.BeanCentral2{
+  border-style: solid;
+  border-radius: 8px;
+  width: 35vh;
+  height: 12vh;
+  color: white;
+  margin-left: 3vh;
+  margin-top: 10vh;
+  padding-left: 3vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  animation: fadeInn 1s ease-in-out forwards;
+}
+.BeanCentral3{
+  border-style: solid;
+  border-radius: 8px;
+  width: 40vh;
+  height: 10vh;
+  color: white;
+  margin-left: 3vh;
+  margin-top: 10vh;
+  padding-left: 3vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  animation: fadeInn 1s ease-in-out forwards;
+}
+.btn{
+  cursor: pointer;
+  border-radius: 25px;
+  background: radial-gradient(circle, black, rgb(161, 161, 161));
+  float: right;
+  margin-top: 11vh;
+  float: right;
+  width: 25vh;
+  height: 7.5vh;
+  color: white;
+  animation: fadeInn 1s ease-in-out forwards;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5vh;
+  transition: color 1s;
+}
+.btn2{
+  cursor: pointer;
+  border-radius: 25px;
+  background: radial-gradient(circle, black, rgb(161, 161, 161));
+  float: right;
+  margin-top: 11vh;
+  float: right;
+  width: 25vh;
+  height: 7.5vh;
+  color: white;
+  animation: fadeInn 1s ease-in-out forwards;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5vh;
+  transition: color 1s;
+}
+.btn3{
+  cursor: pointer;
+  border-radius: 25px;
+  background: radial-gradient(circle, black, rgb(161, 161, 161));
+  float: right;
+  margin-top: 6vh;
+  float: right;
+  width: 25vh;
+  height: 7.5vh;
+  color: white;
+  animation: fadeInn 1s ease-in-out forwards;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 5vh;
+  transition: color 1s;
+}
+.btn:hover{
+  background: radial-gradient(circle, rgb(161, 161, 161), black);
+  color: black;
+}
+.btn2:hover{
+  background: radial-gradient(circle, rgb(161, 161, 161), black);
+  color: black;
+}
+.btn3:hover{
+  background: radial-gradient(circle, rgb(161, 161, 161), black);
+  color: black;
+}
+.titl{
+  animation: fadeInn 1s ease-in-out forwards;
+  margin-top: 10vh;
+  color: chocolate;
+  text-decoration: underline;
+  text-align: center;
+}
+.EonHub{
+  border-style: solid;
+  border-radius: 8px;
+  width: 40vh;
+  height: 15vh;
+  color: white;
+  margin-left: 3vh;
+  margin-top: 5vh;
+  padding-left: 3vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  animation: fadeInn 1s ease-in-out forwards;
+  margin-bottom: 5vh;
+}
+@keyframes fadeInn{
+  from{
+    display: none;
+    opacity: 0;
+    transform: translateY(50px);
+  }to{
+    display: block;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.name{
+  text-decoration: underline;
+}
+.main{
+  height: 122vh;
+}

@@ -1,0 +1,63 @@
+.centersign{
+  color: white;
+  display: flex;
+  margin-top: 15vh;
+  border-style: solid;
+  margin-left: 3vh;
+  width: 70vh;
+  height: 44vh;
+}
+label{
+  display: flex;
+}
+.custom-file-label{
+  text-decoration: underline;
+}
+.p12{
+  margin-left: 30vh;
+}
+.mobile{
+  margin-left: 25vh;
+}
+.ipa{
+  margin-left: 30vh;
+}
+.custom-file-input{
+  margin-left: 17vh;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: chocolate;
+  background-color: chocolate;
+}
+.d{
+  margin-left: 25vh;
+}
+.dd{
+  margin-left: 20vh;
+}
+.ddd{
+  margin-left: 4vh;
+}
+.p12passlabel{
+  margin-left: 23vh;
+  text-decoration: underline;
+}
+.p12passinput{
+  margin-left: 24vh;
+}
+.button{
+  display: flex;
+  font-size: 5vh;
+  background-color: chocolate;
+  border-radius: 8px;
+  padding-left: 30vh;
+  width: 70vh;
+  margin-top: 3vh;
+}
+.button:active{
+  background-color: chocolate;
+  margin-top: 4vh;
+}
+.button:hover{
+  background-color: rgb(255, 106, 0);
+}
